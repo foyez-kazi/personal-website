@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.col {
+  width: 40%;
+  margin-left: 5%;
+  padding-left: 2%;
+
+  float: left;
+}
+
+.col-1-of-3 {
+  width: 30%;
+  margin-left: 3%;
+  /* padding-left: 2%; */
+
+  float: left;
+}
+
+img {
+  width: 100%;
+}
+
+.col p {
+  color: dimgray;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+.content {
+  padding-top: 10%;
+}
+
+.header {
+  background: url('./assets/images/header-bg.png') no-repeat left;
+  padding: 8% 0;
+}
+
+.header h3 {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.header h1 {
+  color: #ff4c93;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.btn {
+  background-image: linear-gradient(45deg, #ff4c93, #ff1a73);
+  border-radius: 5px;
+  color: #fff;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+
+.biography-section {
+  background: url('./assets/images/biography-bg.png') no-repeat;
+  padding: 8% 0;
+}
+
+.latest-work-section {
+  background: url('./assets//images/latest-work-bg.png') no-repeat right;
+  padding: 8% 0;
+}
+
+.latest-work-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.client-section {
+  background: url('./assets/images/footer-bg.png') no-repeat left;
+  margin: 5% 0;
+  text-align: center;
+}
+
+.client-section h2 {
+  margin-bottom: 40px;
+}
+
+.client-section .client-desc {
+  margin-bottom: 15px;
+}
+
+.client-section .client-desc p {
+  color: gray;
+  font-size: 12px;
+}
+
+.client-section .review {
+  margin: 0 auto 30px;
+  width: 400px;
+}
+
+.client-section .box {
+  background-color: #ff4c93;
+  border-radius: 10px;
+  color: #fff;
+  display: inline-block;
+  padding: 20px 80px;
+}
+
+.client-section .box p {
+  font-size: 12px;
+}
+
+.footer {
+  color: dimgray;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 30px;
+}
